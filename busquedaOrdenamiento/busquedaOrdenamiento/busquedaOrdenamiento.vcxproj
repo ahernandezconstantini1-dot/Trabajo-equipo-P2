@@ -18,6 +18,19 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="randomgen.h" />
+    <ClInclude Include="search.h" />
+    <ClInclude Include="sort.h" />
+    <ClInclude Include="view.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="busquedaOrdenamiento.cpp" />
+    <ClCompile Include="randomgen.cpp" />
+    <ClCompile Include="search.cpp" />
+    <ClCompile Include="Sort.cpp" />
+    <ClCompile Include="view.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -122,17 +135,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Sort.cpp" />
-    <ClCompile Include="busquedaOrdenamiento.cpp" />
-    <ClCompile Include="search.cpp" />
-    <ClCompile Include="view.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="search.h" />
-    <ClInclude Include="sort.h" />
-    <ClInclude Include="view.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
