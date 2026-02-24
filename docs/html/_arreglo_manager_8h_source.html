@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.16.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Analisis de complejidad: Archivo de cÃ³digo fuente src/Version POO/BusquedaOrdenamiento_POO/ArregloManager.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Analisis de complejidad<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">DescripciÃ³n breve del proyecto</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.16.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Buscar',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_arreglo_manager_8h_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">ArregloManager.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_arreglo_manager_8h.html">Ir a la documentaciÃ³n de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#ifndef ARREGLO_MANAGER_H</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="_arreglo_manager_8h.html#a2c4b37235b19039e417719797c6b325e">   10</a></span><span class="preprocessor">#define ARREGLO_MANAGER_H</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span></div>
+<div class="foldopen" id="foldopen00021" data-start="{" data-end="};">
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="class_arreglo_manager.html">   21</a></span><span class="keyword">class </span><a class="code hl_function" href="class_arreglo_manager.html#ab243f60503dfd8cf743b0339124eb469">ArregloManager</a> {</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    std::vector&lt;int&gt; datos; </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordtype">int</span> n; </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="keywordtype">int</span> leerEnteroSeguro(<span class="keyword">const</span> std::string&amp; prompt, <span class="keywordtype">int</span> minPermitido);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keywordtype">int</span> leerEnteroRango(<span class="keyword">const</span> std::string&amp; prompt, <span class="keywordtype">int</span> minV, <span class="keywordtype">int</span> maxV);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <a class="code hl_function" href="class_arreglo_manager.html#ab243f60503dfd8cf743b0339124eb469">ArregloManager</a>();</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_arreglo_manager.html#ae7a74b8f8b78a4e250525cd24356c6fb">generarInteractivo</a>();</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_arreglo_manager.html#ad20cc014a6f98f77cd8292215708eb79">mostrar</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="class_arreglo_manager.html#a81fe86c2e8d33d8d1699512ce655e1c3">   65</a></span>    <span class="keywordtype">int</span>* <a class="code hl_function" href="class_arreglo_manager.html#a81fe86c2e8d33d8d1699512ce655e1c3">getRawData</a>() { <span class="keywordflow">return</span> datos.data(); }</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="class_arreglo_manager.html#a9c5fadce4ffa975b88b40a31101ecd86">   70</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_arreglo_manager.html#a9c5fadce4ffa975b88b40a31101ecd86">getTamano</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> n; }</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span></div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="class_arreglo_manager.html#a0d0a28a41692859232ae88305d02d3e6">   75</a></span>    std::vector&lt;int&gt;&amp; <a class="code hl_function" href="class_arreglo_manager.html#a0d0a28a41692859232ae88305d02d3e6">getVector</a>() { <span class="keywordflow">return</span> datos; }</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>};</div>
+</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclass_arreglo_manager_html_a0d0a28a41692859232ae88305d02d3e6"><div class="ttname"><a href="class_arreglo_manager.html#a0d0a28a41692859232ae88305d02d3e6">ArregloManager::getVector</a></div><div class="ttdeci">std::vector&lt; int &gt; &amp; getVector()</div><div class="ttdoc">Obtiene una referencia al vector de datos.</div><div class="ttdef"><b>Definition</b> ArregloManager.h:75</div></div>
+<div class="ttc" id="aclass_arreglo_manager_html_a81fe86c2e8d33d8d1699512ce655e1c3"><div class="ttname"><a href="class_arreglo_manager.html#a81fe86c2e8d33d8d1699512ce655e1c3">ArregloManager::getRawData</a></div><div class="ttdeci">int * getRawData()</div><div class="ttdoc">Obtiene el puntero a los datos crudos del vector.</div><div class="ttdef"><b>Definition</b> ArregloManager.h:65</div></div>
+<div class="ttc" id="aclass_arreglo_manager_html_a9c5fadce4ffa975b88b40a31101ecd86"><div class="ttname"><a href="class_arreglo_manager.html#a9c5fadce4ffa975b88b40a31101ecd86">ArregloManager::getTamano</a></div><div class="ttdeci">int getTamano() const</div><div class="ttdoc">Obtiene el tamaño del arreglo.</div><div class="ttdef"><b>Definition</b> ArregloManager.h:70</div></div>
+<div class="ttc" id="aclass_arreglo_manager_html_ab243f60503dfd8cf743b0339124eb469"><div class="ttname"><a href="class_arreglo_manager.html#ab243f60503dfd8cf743b0339124eb469">ArregloManager::ArregloManager</a></div><div class="ttdeci">ArregloManager()</div><div class="ttdoc">Constructor por defecto de la clase.</div><div class="ttdef"><b>Definition</b> ArregloManager.cpp:22</div></div>
+<div class="ttc" id="aclass_arreglo_manager_html_ad20cc014a6f98f77cd8292215708eb79"><div class="ttname"><a href="class_arreglo_manager.html#ad20cc014a6f98f77cd8292215708eb79">ArregloManager::mostrar</a></div><div class="ttdeci">void mostrar() const</div><div class="ttdoc">Muestra el contenido del arreglo en consola.</div><div class="ttdef"><b>Definition</b> ArregloManager.cpp:114</div></div>
+<div class="ttc" id="aclass_arreglo_manager_html_ae7a74b8f8b78a4e250525cd24356c6fb"><div class="ttname"><a href="class_arreglo_manager.html#ae7a74b8f8b78a4e250525cd24356c6fb">ArregloManager::generarInteractivo</a></div><div class="ttdeci">void generarInteractivo()</div><div class="ttdoc">Genera el arreglo usando el menú interactivo original.</div><div class="ttdef"><b>Definition</b> ArregloManager.cpp:69</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a href="dir_05f931ba29d6d0cdf951f54a86385777.html">Version POO</a></li><li class="navelem"><a href="dir_2e8a907dde4ff75b05c1b6f81af075d4.html">BusquedaOrdenamiento_POO</a></li><li class="navelem"><a href="_arreglo_manager_8h.html">ArregloManager.h</a></li>
+    <li class="footer">Generado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.16.1 </li>
+  </ul>
+</div>
+</body>
+</html>

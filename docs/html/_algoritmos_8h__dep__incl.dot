@@ -1,0 +1,12 @@
+digraph "src/Version POO/BusquedaOrdenamiento_POO/Algoritmos.h"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [id="Node000001",label="src/Version POO/Busqueda\lOrdenamiento_POO/Algoritmos.h",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Declaración de la clase Algoritmos y sus métodos de procesamiento."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="src/Version POO/Busqueda\lOrdenamiento_POO/Algoritmos.cpp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$_algoritmos_8cpp.html",tooltip="Implementación de los métodos de ordenamiento y búsqueda de la clase Algoritmos."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="src/Version POO/Busqueda\lOrdenamiento_POO/main.cpp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$_version_01_p_o_o_2_busqueda_ordenamiento___p_o_o_2main_8cpp.html",tooltip="Punto de entrada principal para el sistema de análisis de algoritmos."];
+}
