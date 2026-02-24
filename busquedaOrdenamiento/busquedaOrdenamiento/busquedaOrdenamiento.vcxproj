@@ -25,7 +25,7 @@
     <ClInclude Include="view.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="busquedaOrdenamiento.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="randomgen.cpp" />
     <ClCompile Include="search.cpp" />
     <ClCompile Include="Sort.cpp" />
