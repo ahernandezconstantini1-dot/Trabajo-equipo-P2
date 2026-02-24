@@ -1,1 +1,3 @@
-﻿  busquedaOrdenamiento.vcxproj -> D:\GitHub\Trabajo-equipo-P2\busquedaOrdenamiento\x64\Debug\busquedaOrdenamiento.exe
+﻿  main.cpp
+randomgen.obj : error LNK2005: ya se definió "class std::vector<int,class std::allocator<int> > __cdecl generarArregloInteractivo(int &)" (?generarArregloInteractivo@@YA?AV?$vector@HV?$allocator@H@std@@@std@@AEAH@Z) en main.obj
+D:\GitHub\Trabajo-equipo-P2\busquedaOrdenamiento\x64\Debug\busquedaOrdenamiento.exe : fatal error LNK1169: se encontraron uno o más símbolos definidos simultáneamente
