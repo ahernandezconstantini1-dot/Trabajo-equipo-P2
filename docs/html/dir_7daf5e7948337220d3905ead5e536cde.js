@@ -1,4 +1,0 @@
-var dir_7daf5e7948337220d3905ead5e536cde =
-[
-    [ "doc", "dir_ff00e3e8535c57845a1f69079958489c.html", "dir_ff00e3e8535c57845a1f69079958489c" ]
-];

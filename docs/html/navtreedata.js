@@ -25,31 +25,8 @@
 var NAVTREE =
 [
   [ "Analisis de complejidad", "index.html", [
-    [ "Análisis de Complejidad - Responsable: Mau", "complejidad_analisis.html", [
-      [ "Resumen General del Programa", "complejidad_analisis.html#resumen_general", [
-        [ "Complejidad Temporal Global", "complejidad_analisis.html#complejidad_tiempo", null ],
-        [ "Complejidad Espacial Global", "complejidad_analisis.html#complejidad_espacio", null ]
-      ] ],
-      [ "Complejidad por Case", "complejidad_analisis.html#complejidad_por_case", null ],
-      [ "Notas de Implementación", "complejidad_analisis.html#notas_implementacion", null ]
-    ] ],
-    [ "Clases", "annotated.html", [
-      [ "Lista de clases", "annotated.html", "annotated_dup" ],
-      [ "Índice de clases", "classes.html", null ],
-      [ "Miembros de clases", "functions.html", [
-        [ "Todos", "functions.html", null ],
-        [ "Funciones", "functions_func.html", null ],
-        [ "Variables", "functions_vars.html", null ]
-      ] ]
-    ] ],
     [ "Archivos", "files.html", [
-      [ "Lista de archivos", "files.html", "files_dup" ],
-      [ "Miembros de los archivos", "globals.html", [
-        [ "Todos", "globals.html", null ],
-        [ "Funciones", "globals_func.html", null ],
-        [ "typedefs", "globals_type.html", null ],
-        [ "defines", "globals_defs.html", null ]
-      ] ]
+      [ "Lista de archivos", "files.html", "files_dup" ]
     ] ]
   ] ]
 ];

@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['implementación_0',['Notas de Implementación',['../complejidad_analisis.html#notas_implementacion',1,'']]],
-  ['imprimir_1',['imprimir',['../_sort_8cpp.html#a8dfe2940d16380c2130184a027f6123c',1,'Sort.cpp']]],
-  ['insercion_2',['insercion',['../class_algoritmos.html#a8a73ddc0192912fec374076351b4aa50',1,'Algoritmos']]]
+  ['pages_5f0_2ejs_0',['pages_0.js',['../pages__0_8js.html',1,'']]],
+  ['pages_5f1_2ejs_1',['pages_1.js',['../pages__1_8js.html',1,'']]],
+  ['pages_5f2_2ejs_2',['pages_2.js',['../pages__2_8js.html',1,'']]],
+  ['pages_5f3_2ejs_3',['pages_3.js',['../pages__3_8js.html',1,'']]],
+  ['pages_5f4_2ejs_4',['pages_4.js',['../pages__4_8js.html',1,'']]]
 ];
