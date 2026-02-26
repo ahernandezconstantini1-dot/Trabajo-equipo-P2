@@ -27,9 +27,12 @@
     <ClInclude Include=".h\view.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include=".cpp\main.cpp">
+    <ClCompile Include=".cpp\busquedaOrdenamiento.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
     <ClCompile Include=".cpp\randomgen.cpp">
@@ -43,6 +46,9 @@
     </ClCompile>
     <ClCompile Include=".cpp\view.cpp">
       <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controller.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

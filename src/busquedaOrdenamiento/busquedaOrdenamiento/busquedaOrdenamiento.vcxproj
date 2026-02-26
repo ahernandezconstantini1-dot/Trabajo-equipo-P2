@@ -23,13 +23,15 @@
     <ClInclude Include=".h\search.h" />
     <ClInclude Include=".h\sort.h" />
     <ClInclude Include=".h\view.h" />
+    <ClInclude Include="controller.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include=".cpp\main.cpp" />
+    <ClCompile Include=".cpp\busquedaOrdenamiento.cpp" />
     <ClCompile Include=".cpp\randomgen.cpp" />
     <ClCompile Include=".cpp\search.cpp" />
     <ClCompile Include=".cpp\Sort.cpp" />
     <ClCompile Include=".cpp\view.cpp" />
+    <ClCompile Include="controller.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
